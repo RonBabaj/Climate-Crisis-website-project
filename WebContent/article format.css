@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+    font-family: Times New Roman;
+    margin:0;
+    padding:20px;
+   
+}
+{
+    box-sizing: border-box;
+}
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header{
+    
+    padding:30px;
+}
+
+
+
+.left-column{
+float: left;
+width: 75%;
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.card{
+    padding: 20px;
+    background-color: #ffffff;
+ margin-top:20px;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.right-column .card img{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/responsive */
+
+@media(max-width:800px){
+    .left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+    }
+}

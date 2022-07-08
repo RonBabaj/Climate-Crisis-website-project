@@ -1,0 +1,48 @@
+@charset "windows-1255";
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+nav{
+	/*
+	position: fixed;
+    top: 0;
+    background-color:#000018;
+    */ 
+	width: 100%;
+	height:5x;
+}
+Background-color{
+	background-color: rgba(49, 40, 40, 0.5);
+
+}
+
+
+ul {
+	text-align: center
+	
+ }
+ 
+ ul li{
+ text-align: center;
+  list-style: none;
+  display: inline-block;
+  float: center;
+  line-height: 50px;
+  color: #FFFFF0;
+  border-bottom: 1px solid #FFFFF0;
+ }
+ 
+ ul li a {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ font-size: 30px;
+ font-family: Calibri;
+ color: #FFFFF0;
+ padding: 0 20px;
+ 
+
+ }
+ 
